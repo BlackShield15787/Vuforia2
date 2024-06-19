@@ -1,0 +1,11 @@
+# ninja log v5
+36	169	7404605252253644	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	9aeb343335832ab6
+171	400	7404605253793660	C:/Users/munoz/Desktop/Github/Vuforia2/Vuforia2/Vuforia/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2a563g39/obj/arm64-v8a/libswappywrapper.so	374462e96a47f14d
+1	753	7404605258118222	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9169e3f70a6923bf
+13	761	7404605258188393	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	3c03105a19ea9314
+18	778	7404605258339052	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	aee5b29179527c8a
+29	929	7404605259823780	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e6121bbcfc532072
+5	930	7404605259823780	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	66b446674f399a13
+23	1114	7404605261646208	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	438b202d2b584ea9
+9	1150	7404605262035383	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ea6ad0fee90a8789
+1150	1296	7404605262869457	C:/Users/munoz/Desktop/Github/Vuforia2/Vuforia2/Vuforia/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2a563g39/obj/arm64-v8a/libgame.so	b7318bcf9b52fc5c
