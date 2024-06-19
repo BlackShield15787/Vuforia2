@@ -4,5 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Cloud Recognition.unity
+    guid: 702458f65564582488b29e102ea49bcf
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
