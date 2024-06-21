@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0755370326f22b48ab5abf1b5088c4f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91811
+  packageName: AnyUI - Map Your UI On Any 3D Surface
+  packageVersion: 1.7
+  assetPath: Assets/AnyUI/Demo/vrtkintegration.unitypackage
+  uploadId: 293323
