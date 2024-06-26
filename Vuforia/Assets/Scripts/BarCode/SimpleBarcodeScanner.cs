@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Vuforia;
 
 public class SimpleBarcodeScanner : MonoBehaviour
@@ -8,9 +9,12 @@ public class SimpleBarcodeScanner : MonoBehaviour
     BarcodeBehaviour mBarcodeBehaviour;
 
     public List<string> History;
+    
+
     void Start()
     {
         mBarcodeBehaviour = GetComponent<BarcodeBehaviour>();
+        
     }
 
     // Update is called once per frame
@@ -23,6 +27,15 @@ public class SimpleBarcodeScanner : MonoBehaviour
                BarCodeManager.Instance.History.Add(mBarcodeBehaviour.InstanceData.Text);
                BarCodeManager.Instance.wasDetected = true;
 
+                if (BarCodeManager.Instance.History.Count==1)
+                {
+                    BarCodeManager.Instance.LastWebSiteLinkIndex = 0;
+
+                }
+                else
+                {
+                    BarCodeManager.Instance.LastWebSiteLinkIndex++;
+                }
             }
 
             barcodeAsText.text = mBarcodeBehaviour.InstanceData.Text;
